@@ -12,6 +12,20 @@ html {
     font-size: 62.5%;
 }
 
+.para {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    max-width: 80vw;
+}
+
 .loginSection {
     background-color: teal;
     display: flex;
@@ -62,7 +76,7 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 span {
